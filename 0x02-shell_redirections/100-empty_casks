@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -aR | cut -d"/" -f1
+ls -aR | cut -d"." -f1
