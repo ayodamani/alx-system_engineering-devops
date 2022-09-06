@@ -1,2 +1,2 @@
-#!/bin/bash
-ls -aR | cut -d"." -f1
+#!/bin/bai
+ls -a | find . -type f,d -empty | cut -d"/" -f2
